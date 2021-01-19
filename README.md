@@ -14,7 +14,7 @@ a user will be able to add expenses and deposits to their budget with or without
 ## Usage
 npm i to set environment <br>
 
-Deploy: <br>
+Deploy: https://nameless-depths-91188.herokuapp.com/ <br>
 
 <img src = "./public/img/operatingApp01.gif" width="800">
 
