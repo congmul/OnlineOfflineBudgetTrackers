@@ -52,7 +52,8 @@ self.addEventListener("install", function(evt) {
   // fetch
 self.addEventListener("fetch", function(evt) {
     const {url} = evt.request;
-    if (url.includes("/api/transaction") || url.includes("/find")) {
+    // if (url.includes("/api/transaction") || url.includes("/find")) {
+    if (url.includes("/api/transaction")) {
       evt.respondWith(
         caches.open(DATA_CACHE_NAME).then(cache => {
           return fetch(evt.request)
